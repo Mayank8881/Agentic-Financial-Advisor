@@ -4,8 +4,6 @@
 
 The Agentic AI Financial Advisor is an intelligent system built using the Pydantic AI framework and Ollama LLM. It analyzes current market scenarios and provides comprehensive investment recommendations for both short-term and long-term horizons. The system leverages AI agents to evaluate global and Indian financial markets, considering factors like macroeconomic indicators, interest rates, inflation, and geopolitical events.
 
-**Note:** This system uses LLM-based market analysis with knowledge cutoff in December 2023. For production use, consider integrating real-time data sources.
-
 ## Features
 
 - **Market Analysis Agent**: Provides concise market overviews based on current trends.
