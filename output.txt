@@ -1,0 +1,132 @@
+PS C:\Users\mayank.mokhere\Documents\Assignents\AgenticAI\agentic_financial_advisor> python test_market_analyst_agent.py
+Testing Market Analyst Agent...
+==================================================
+Market Analysis Output:
+**Global Financial Market Analysis**
+
+As of my knowledge cutoff in December 2023, the global financial markets are experiencing a mix of trends that suggest both opportunities and challenges. Here's a comprehensive analysis:
+
+1. **Economic Growth**: The global economy is expected to continue growing, albeit at a moderate pace. The International Monetary Fund (IMF) projects a growth rate of 3.4% in 2023, down from 3.7% in 2022.
+2. **Inflation**: Inflation rates have been rising globally, driven by supply chain disruptions, labor shortages, and increasing demand for goods and services. The IMF expects inflation to peak at around 6.5% in 2023, before gradually declining.
+3. **Interest Rates**: Central banks are grappling with the challenge of balancing growth and inflation. Many major economies have already raised interest rates to combat inflation, while others, such as China, remain relatively accommodative. The US Federal Reserve is expected to continue its tightening cycle, while the European Central Bank may slow down its pace.
+4. **Geopolitics**: Geopolitical tensions, particularly between the US and China, are ongoing. Trade wars, sanctions, and diplomatic disputes can impact global trade flows, commodity prices, and investor sentiment.
+5. **Sentiment**: Investor sentiment remains cautious, with many markets experiencing volatility due to inflation concerns, interest rate hikes, and geopolitical risks.
+
+**Indian Financial Market Analysis**
+
+In the Indian financial market, we're observing:
+
+1. **Monetary Policy**: The Reserve Bank of India (RBI) has been maintaining a hawkish stance, raising interest rates several times in 2023 to combat inflation.
+2. **Economic Growth**: India's economic growth is expected to remain robust, driven by a strong services sector and infrastructure development.
+3. **Inflation**: Inflation rates have been rising, but the RBI aims to keep them under control through monetary policy.
+4. **Market Sentiment**: Indian equity markets have been volatile, with some sectors experiencing significant gains while others have faced declines.
+
+**Key Trends**
+
+1. **Digitalization and E-commerce**: The rise of digital payments, e-commerce, and fintech is transforming the Indian financial landscape.
+2. **Infrastructure Development**: Government initiatives to develop infrastructure, such as roads, airports, and ports, are expected to boost economic growth.
+3. **Global Trade Tensions**: Ongoing trade tensions between major economies may impact India's exports and imports.
+
+**Recommendations**
+
+1. **Diversify Portfolio**: Investors should consider diversifying their portfolios across various asset classes, sectors, and geographies to mitigate risks.
+2. **Focus on Quality Stocks**: High-quality stocks with strong fundamentals and growth potential are likely to outperform in the long term.
+3. **Monitor Geopolitical Risks**: Investors should remain vigilant about geopolitical risks and adjust their strategies accordingly.
+
+Please note that this analysis is based on my knowledge cutoff in December 2023, and market conditions may have changed since then.
+
+✅ Test completed successfully!
+PS C:\Users\mayank.mokhere\Documents\Assignents\AgenticAI\agentic_financial_advisor> python main.py
+
+
+======================================================================
+🤖 AGENTIC AI FINANCIAL ADVISOR - WORKFLOW STARTED
+======================================================================
+
+[1/3] 📊 Running Market Analyst Agent (Llama 3.2)...
+      Analyzing current financial market conditions...
+      ✅ Market analysis completed!
+
+[2/3] 📈 Running Short-Term Investment Agent (Llama 3.2)...
+      Generating short-term investment recommendations...
+      ✅ Short-term recommendation completed!
+
+[3/3] 🏛️  Running Long-Term Investment Agent (Llama 3.2)...
+      Generating long-term investment recommendations...
+      ✅ Long-term recommendation completed!
+
+======================================================================
+✨ All agents completed successfully! Generating final report...
+======================================================================
+
+
+======================================================================
+📋 FINAL FINANCIAL ADVISORY REPORT
+======================================================================
+⏱️  Total processing time: 187.86 seconds
+======================================================================
+
+
+======================================================================
+📊 MARKET ANALYSIS
+======================================================================
+
+**Global Financial Market Overview**
+
+As of my knowledge cutoff in December 2023, the global financial markets are experiencing a mix of volatility and stability. Here's a summary of key trends and factors influencing the markets:      
+
+1. **Inflation**: Central banks have been actively managing inflation rates, with many countries experiencing rising prices due to supply chain disruptions, labor shortages, and increased demand.   
+2. **Interest Rates**: The Federal Reserve in the US has raised interest rates multiple times this year to combat inflation, while other central banks, such as the European Central Bank and the Bank of England, have also increased rates to curb inflationary pressures.
+3. **Geopolitics**: Ongoing conflicts in Ukraine, trade tensions between the US and China, and rising nationalism in various countries are contributing to market uncertainty.
+4. **Sentiment**: Investor sentiment remains cautious due to ongoing economic concerns, including high debt levels, slowing growth, and rising interest rates.
+
+**Indian Financial Market Overview**
+
+The Indian financial markets have been influenced by domestic and global factors:
+
+1. **Economic Growth**: India's GDP growth has slowed down in recent quarters, partly due to the impact of the COVID-19 pandemic, supply chain disruptions, and a decline in global commodity prices. 
+2. **Monetary Policy**: The Reserve Bank of India (RBI) has kept interest rates steady, but is expected to remain vigilant on inflationary pressures.
+3. **Geopolitics**: India's relations with its neighbors, particularly China, have been a concern due to border tensions and trade disputes.
+4. **Sentiment**: Investor sentiment remains cautious in India, driven by concerns over economic growth, inflation, and the impact of global events.
+
+**Key Market Indicators**
+
+1. **S&P BSE Sensex**: The Indian stock market index has been volatile, with fluctuations in the range of 500-700 points.
+2. **Nifty 50**: The Nifty 50 index has also experienced significant volatility, with price movements influenced by global events and domestic economic trends.
+3. **Currency**: The Indian rupee (INR) has been trading at a relatively stable level against major currencies, but remains vulnerable to fluctuations in global commodity prices and interest rates. 
+
+**Recommendations**
+
+Based on the current market conditions, I would recommend:
+
+1. **Diversification**: Investors should consider diversifying their portfolios across asset classes, sectors, and geographies to mitigate risks.
+2. **Long-term Focus**: Investors with a long-term perspective (5+ years) may benefit from investing in growth-oriented stocks, infrastructure projects, and emerging markets.
+3. **Risk Management**: Investors should maintain a risk management strategy, including stop-loss orders, position sizing, and diversification, to minimize potential losses.
+
+Please note that this analysis is based on my knowledge cutoff in December 2023 and may not reflect current market conditions. It's essential to consult with a financial advisor or conduct your own research before making investment decisions.
+
+======================================================================
+📈 SHORT-TERM INVESTMENT RECOMMENDATION
+======================================================================
+
+💼 Asset Name: NIFTY 50 ETF
+📝 Rationale: Broad market exposure with stable growth potential
+⚠️  Risk Level: Medium
+📊 Expected Return: 10-12% annually
+⏰ Time Horizon: Short-term
+
+======================================================================
+🏛️  LONG-TERM INVESTMENT RECOMMENDATION
+======================================================================
+
+💼 Asset Name: Index Fund
+📝 Rationale: Diversified portfolio with long-term growth potential, reducing risk through asset allocation and sector diversification
+⚠️  Risk Level: Medium
+📊 Expected Return: 12-15% annually
+⏰ Time Horizon: Long-term
+
+======================================================================
+✅ Report generation completed successfully!
+======================================================================
+
+PS C:\Users\mayank.mokhere\Documents\Assignents\AgenticAI\agentic_financial_advisor>
