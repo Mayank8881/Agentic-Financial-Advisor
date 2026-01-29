@@ -1,26 +1,66 @@
 """
-long_term_investment_agent.py
+Long-Term Investment Agent
 
 Purpose:
-    Provides long-term investment recommendations
-    focusing on wealth creation and stability.
+    This file defines the Long-Term Investment Agent.
+    The agent is responsible for generating investment
+    recommendations that focus on long-term wealth
+    creation, financial stability, and compounding returns.
+
+Why this agent exists:
+    Long-term investments require a different mindset
+    compared to short-term trading. This agent mimics
+    the behavior of a professional long-term financial
+    advisor who prioritizes fundamentals, stability,
+    and sustainable growth.
 """
 
+# Import the Agent class from the PydanticAI framework.
+# This is used to define a role-based AI agent.
 from pydantic_ai import Agent
+
+# Import the Pydantic schema used to describe the expected
+# structure of an investment recommendation.
+# (Used by the orchestrator for validation, not for function calling.)
 from schemas.investment_schema import InvestmentRecommendation
+
+# Import the LLM configuration utility.
+# This function returns the configured open-source LLM
+# running locally through Ollama.
 from utils.llm_configuration import get_llm_model
 
+
+# -------------------------------------------------------------------
+# Long-Term Investment Agent Definition
+# -------------------------------------------------------------------
+# This agent is designed to generate long-term investment
+# recommendations using a locally running LLM.
+#
+# Special care is taken to ensure:
+# - Output is structured as valid JSON
+# - Responses are stable and retry-safe
+# - No function calling is used (to avoid parsing issues)
+# -------------------------------------------------------------------
 long_term_investment_agent = Agent(
+    # Specify the language model used by this agent.
+    # "llama3.2:latest" refers to the latest LLaMA model
+    # served locally via Ollama.
     model=get_llm_model("llama3.2:latest"),
-    # Removed output_type to avoid function calling
-    retries=3,  # Increase retries to handle format issues
+
+    # Number of retry attempts if the model output
+    # does not match the expected format.
+    # This improves reliability when dealing with LLMs.
+    retries=3,
+
+    # System prompt defines the behavior, role,
+    # and strict output requirements for this agent.
     system_prompt="""
     You are a long-term investment advisor.
 
     Focus:
     - Time horizon: multiple years
-    - Fundamental strength
-    - Risk-adjusted returns and compounding
+    - Strong fundamentals and financial stability
+    - Risk-adjusted returns and long-term compounding
 
     CRITICAL INSTRUCTIONS:
     - You must return ONLY a valid JSON object
